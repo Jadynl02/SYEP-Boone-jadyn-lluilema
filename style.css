@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: cadetblue;
+    background-color: darkolivegreen;
     text-align: center;
     line-height:2.1;
 }
@@ -13,5 +13,27 @@ body{
     border-radius: 50%;
 }
 .accent{
-    color:darkcyan;
+    color:olive;
+}
+
+@media screen (max-width:768px){
+    body{background-color: green}
+}
+
+.grid{
+    display:flex;
+    justify-content: center;
+   /* justify-content: space-around; */
+   gap: 15px 
+   flex-wrap: wrap; 
+}
+
+
+.grid div{
+    background-color: olivedrab;
+    border-radius: 100px;
+    padding: 10px;
+    min-width: 80px;
+
+    
 }
