@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: darkolivegreen;
+    background-color:#9ac76d;
     text-align: center;
     line-height:2.1;
 }
@@ -30,10 +30,18 @@ body{
 
 
 .grid div{
-    background-color: olivedrab;
+    background-color: #7ea367;
     border-radius: 100px;
     padding: 10px;
     min-width: 80px;
 
     
 }
+body{
+    box-shadow: 20px 20px 130px 110px #7fa658
+}
+
+p{
+    padding: 30px 150px 20px 150px 
+}
+
